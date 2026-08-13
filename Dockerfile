@@ -82,4 +82,6 @@ RUN python3 -c "import onnxruntime; p = onnxruntime.get_available_providers(); a
 COPY src/start_script.sh /start_script.sh
 RUN chmod +x /start_script.sh
 
+ENV TEMPLATE_VERSION=1.1
+
 CMD ["/start_script.sh"]
