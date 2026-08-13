@@ -20,7 +20,7 @@
 # shared start.sh; it is not duplicated here.
 
 TEMPLATE_DIR=/comfyui-minimax
-TEMPLATE_URL=https://github.com/Hearmeman24/comfyui-minimax.git
+TEMPLATE_URL=https://github.com/pradeep-kod/comfyui-minimax.git
 TEMPLATE_BRANCH=master    # minimax's default branch is master, not main
 RUNTIME_DIR=/comfyui-runtime
 RUNTIME_URL=https://github.com/Hearmeman24/comfyui-runtime.git
